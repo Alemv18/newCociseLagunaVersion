@@ -133,12 +133,8 @@ font-weight: 900;
 	}
 /* Home Style */
 #tf-home{
-	background: url(../img/logoBIEN.png);
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	color: #cfcfcf;
+    background: url(../img/banner1.png) no-repeat bottom scroll !important;
+    background-size: 100% !important;
 }
 
 #tf-home .overlay{
@@ -154,11 +150,6 @@ font-weight: 900;
 }
 #tf-home p.lead{
 	color: #e3e3e3;
-}
-
-.content{
-	position: relative;
-	padding: 20% 0 0;
 }
 
 .color{
@@ -192,6 +183,12 @@ ul.about-list li{
 }
 ul.about-list li span{ 
 	margin-right: 10px;
+}
+
+.about-img {
+	width: 70%;
+    margin: 0 auto;
+    opacity: 0.8;
 }
 
 /* Team Section */
